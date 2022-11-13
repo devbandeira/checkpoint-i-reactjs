@@ -1,0 +1,30 @@
+.dad-div {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+.main-form {
+  display: inline-block;
+  position: relative;
+}
+.btn-submit {
+  display: block;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 101, 12, 0.541);
+  border: 0vmax rgb(255, 255, 255) solid;
+  border-radius: 0.4vmax;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  margin: 1vmax auto;
+}
+.btn-submit:hover{
+  background-color: rgba(0, 0, 0, 0.336);
+  color: rgb(0, 0, 0);
+  border: 0.2vmax rgb(0, 0, 0) solid;
+}
+
+input{
+  display: block;
+}
