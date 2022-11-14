@@ -6,9 +6,9 @@ const Cards = (props) => {
     <>
       <div className="div-card">
         <div className="div-img">
-      <img src={props.imagemUrl} />
+      <img src={props.imagemUrl} className="img-card"/>
       </div>
-      <p>{props.name}</p>
+      <p className="tag-p">{props.name}</p>
       </div>
     </>
   );

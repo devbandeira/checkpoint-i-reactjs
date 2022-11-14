@@ -2,24 +2,29 @@ img{
   display: block;
   width: 25vmax;
   height: 25vmax;
-  box-shadow: -4px 1px 19px 13px #000;
   margin: 100px;
-  background-size: cover;
-
 }
-p{
-  display: block;
-  border: 100px solid red;
-  font-weight: 900;
+.tag-p{
+  font-weight: bolder;
   text-align: center;
+  border: 1px solid black;
+  color: white;
 }
-
 .div-card{
   display: block;
   width: auto;
   margin: 10px;
   border: 3px solid;
+  box-shadow: -2px -2px 16px 15px #B33939 inset;
 }
 .div-img{
   border: 3px solid;
+  box-shadow: -4px 1px 15px 10px #000;
+}
+.img-card{
+  display: block;
+  width: auto;
+  margin: 10px;
+  border: 3px solid;
+  box-shadow:  0px 6px 10px 2px #B33939;
 }

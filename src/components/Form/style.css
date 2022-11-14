@@ -11,8 +11,8 @@
   display: block;
   color: white;
   font-weight: bold;
-  background-color: rgba(255, 101, 12, 0.541);
-  border: 0vmax rgb(255, 255, 255) solid;
+  background-color: rgb(84, 10, 94);
+  border: 2px rgb(0, 0, 0) solid;
   border-radius: 0.4vmax;
   align-items: center;
   text-align: center;
@@ -20,11 +20,42 @@
   margin: 1vmax auto;
 }
 .btn-submit:hover{
-  background-color: rgba(0, 0, 0, 0.336);
-  color: rgb(0, 0, 0);
+  background-color: rgba(196, 44, 44, 0.432);
+  color: rgb(255, 255, 255);
   border: 0.2vmax rgb(0, 0, 0) solid;
 }
-
 input{
   display: block;
+  margin: 15px;
 }
+input:hover{
+  scale: 1.2;
+}
+h1{
+  margin: 20px;
+}
+.h1-div{
+  display: flex;
+  padding: 0px 10px 40px 0px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-p{
+	margin: 10px 10px 30px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color:  rgba(74, 4, 102, 0.336);
+  
+}
+.main-p:hover{
+  scale: 1.2;
+  background-color: rgba(196, 44, 44, 0.432);
+}
+a{
+  color: white;
+	text-decoration: none;
+}
+

@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./style.css";
 
 const Form = ({ salvarCampeao }) => {
-
   const [championName, setChampionName] = useState("");
   const [championImage, setChampionImage] = useState("");
 
@@ -18,28 +17,38 @@ const Form = ({ salvarCampeao }) => {
 
   return (
     <div className="dad-div">
-      <h1>Cadastro de Campeões</h1>
+      <div className="h1-div">
+        <p className="main-p">
+          <a
+            href="https://www.leagueoflegends.com/pt-br/champions/"
+            target="_blank"
+          >
+            CLIQUE AQUI PARA VER A LISTA DE CAMPEÕES
+          </a>
+        </p>
+        <h1>CADASTRO DE CAMPEÕES</h1>
+      </div>
 
-      <form className="main-form">
-        <label htmlFor="">Campeão </label>
-        <input
-          type="text"
-          value={championName}
-          onChange={(event) => setChampionName(event.target.value)}
-          placeholder="Digite o nome do campeão"
-        />
+        <form className="main-form">
+          <label htmlFor="">NOME DO CAMPEÃO </label>
+          <input
+            type="text"
+            value={championName}
+            onChange={(event) => setChampionName(event.target.value)}
+            placeholder="Insira o nome do campeão"
+          />
 
-        <label htmlFor="">Imagem </label>
-        <input
-          value={championImage}
-          onChange={(event) => setChampionImage(event.target.value)}
-          placeholder="Digite a URL da imagem"
-        />
+          <label htmlFor=""> IMAGEM DO CAMPEÃO </label>
+          <input
+            value={championImage}
+            onChange={(event) => setChampionImage(event.target.value)}
+            placeholder="Insira a URL da imagem"
+          />
 
-        <button className="btn-submit" onClick={saveChampion}>
-          ENVIAR
-        </button>
-      </form>
+          <button className="btn-submit" onClick={saveChampion}>
+            ENVIAR
+          </button>
+        </form>
     </div>
   );
 };
