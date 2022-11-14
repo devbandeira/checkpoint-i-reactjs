@@ -21,3 +21,17 @@ time, mark, audio, video {
 }
 /* FINISH RESET BROWSER */
 
+body{
+	background: linear-gradient(90deg, #6708AB 0%, #fff 100%);
+}
+
+.div-app{
+	width: 100%;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;	
+}
+
